@@ -1,0 +1,74 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "It tells me the next train from secaucus",
+          "examplePhrases": [
+            "Alexa, open train schedule",
+            "Alexa, begin train schedule",
+            "Alexa, run train schedule"
+          ],
+          "keywords": [
+            "NJTrain",
+            "train",
+            "transit",
+            "secaucus",
+            "hoboken"
+          ],
+          "name": "MyTrain",
+          "description": "This skill provides facts about the next train from Secaucus station in New Jersey. At the moment, it is configured to show the next train to Hoboken.",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "{\"ask_dist_username\":\"\",\"ask_dist_password\":\"\",\"ask_dist_testing_instructions\":\"Sample Testing Instructions.\"}",
+      "category": "PUBLIC_TRANSPORTATION",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:730335612106:function:71a02edb-2eed-4056-b4a4-fc4f3fa4c66c:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:730335612106:function:71a02edb-2eed-4056-b4a4-fc4f3fa4c66c:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:730335612106:function:71a02edb-2eed-4056-b4a4-fc4f3fa4c66c:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:730335612106:function:71a02edb-2eed-4056-b4a4-fc4f3fa4c66c:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {}
+      },
+      "containsAds": false,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false,
+        "isAmazonAssociatesOnAlexaEnabled": false
+      },
+      "usesPersonalInfo": false
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "NJTNextTrainIntent",
+          "samples": [
+            "take me to work",
+            "take me to hoboken",
+            "next train to hoboken",
+            "tell my next train to hoboken",
+            "tell me my next train to work"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ],
+      "types": [],
+      "invocationName": "train schedule"
+    }
+  }
+}
